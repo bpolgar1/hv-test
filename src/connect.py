@@ -8,7 +8,7 @@ def connect_and_run_list_command(host, path_to_directory):
 
     return response.stdout.decode('utf-8').split('\n')
 
-
+# Mocked call to check functionality
 # def connect_and_run_list_command(host, path_to_directory):
 #     if host == 'n1':
 #         return [
